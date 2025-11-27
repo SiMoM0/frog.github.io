@@ -3,18 +3,18 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/frog.github.io/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/frog.github.io/blog/";
+            window.location.href = "/frog.github.io/news/index.html";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -52,7 +52,7 @@ ninja.data = [{
             window.location.href = "/frog.github.io/teaching/";
           },
         },{id: "nav-people",
-          title: "people",
+          title: "People",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
